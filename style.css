@@ -1,0 +1,72 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("Los\ Santos.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#nv1 {
+    margin-left: 19%;
+    margin-top: 1%;
+    width: 55vw;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 40px;
+    background-color: rgba(12, 73, 25, 0.212);
+    backdrop-filter: blur(20px);
+}
+
+#anc {
+    text-decoration: none;
+    margin-right: 7%;
+    color: white;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gta {
+    margin-left: 10%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 2%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(144, 214, 162, 0.521);
+}
+
+#anc1 {
+    border-radius: 90px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    padding: 20px;
+    width: 10vw;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    transition: 0.75s;
+    justify-content: center;
+}
+
+#anc1:hover {
+    background-color: green;
+}
+
+p {
+    font-size: 40px;
+}
